@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv='X-UA-Compatible' content='IE=edge;chrome=1'>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Makzan<%= ': ' + current_page.data.title unless current_page.data.title.nil? %></title>
+    <title>Makzan<%= ': ' + current_article.title unless current_article.nil? %></title>
     <link rel="stylesheet" href="/stylesheets/website.css">
     <%= feed_tag :atom, "#{blog.options.prefix.to_s}/feed.xml", title: "Atom Feed" %>
     <script type="text/javascript" src="//use.typekit.net/gku5yms.js"></script>
@@ -16,9 +16,13 @@
         <p><h1><a href='/' title='Backt to home'>makzan</a></h1>: I teach web design and app dev.</p>
       </header>
 
-      <div id="main" role="main">
-        <%= yield %>
-      </div>
+      <main id="main" role="main">
+        <article>
+          <h1><%= link_to current_article.title, current_article %></h1>
+          <%= yield %>
+          <p><time datetime="<%= current_article.date %>"><%= current_article.date.strftime('%A, %e %B %Y') %></time></p>
+        </article>
+      </main>
 
       <%= partial "aside" %>
 

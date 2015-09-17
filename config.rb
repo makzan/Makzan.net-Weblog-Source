@@ -6,13 +6,13 @@
 
 activate :blog do |blog|
   # This will add a prefix to all links, template references and source paths
-  # blog.prefix = "blog"
+  # blog.prefix = "logs"
 
   # blog.permalink = "{year}/{month}/{day}/{title}.html"
   # Matcher for blog source files
-  # blog.sources = "{year}-{month}-{day}-{title}.html"
+  blog.sources = "logs/{year}-{month}-{day}-{title}.html"
   # blog.taglink = "tags/{tag}.html"
-  # blog.layout = "layout"
+  blog.layout = "article"
   # blog.summary_separator = /(READMORE)/
   # blog.summary_length = 250
   # blog.year_link = "{year}.html"
@@ -30,6 +30,8 @@ activate :blog do |blog|
 end
 
 page "/feed.xml", layout: false
+
+page "/404.html", directory_index: false
 
 ###
 # Compass
@@ -84,6 +86,7 @@ set :js_dir, 'javascripts'
 
 set :images_dir, 'images'
 
+
 # Build-specific configuration
 configure :build do
   # For example, change the Compass output style for deployment
@@ -100,4 +103,12 @@ configure :build do
 
   # Or use a different image path
   # set :http_prefix, "/Content/images/"
+
+  activate :directory_indexes
 end
+
+
+after_build do |builder|
+  FileUtils.cp_r 'public/.', 'build'
+end
+

@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+}
+
+.page {
+  margin: auto;
+  width: 100%;
+  max-width: 700px;
+}
+
+aside {
+  @media screen and (min-width: 500px) {
+    width: 28%;
+    float: right;
+  }
+}
+
+#main {
+  @media screen and (min-width: 500px) {
+    width: 70%;
+    float: left;
+  }
+}
+
+footer {
+  clear: both;
+}
+
+////////
+
+header {
+  h1 {
+    font-size: 100%;
+    display: inline;
+    font-weight: normal;
+  }
+}
+
+h1 {
+  font-size: 100%;
+}
+
+//////
+
+time {
+  font-style: italic;
+}
+
+////////
+
+a {
+  &:link {
+    color: #3e8ec6;
+    text-decoration: none;
+  }
+  &:visited {
+    color: darken(#3e8ec6, 10%);
+  }
+  &:hover {
+    color: white;
+    background: darken(#3e8ec6, 10%);
+  }
+}

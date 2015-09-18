@@ -1,3 +1,10 @@
+//// Reset
+// html, body, h1, h2, h3, h4, h5, h6, ul, li, p {
+//   margin: 0;
+//   padding: 0;
+// }
+
+////
 * {
   box-sizing: border-box;
 }
@@ -27,6 +34,11 @@ footer {
 }
 
 ////////
+// typography
+
+body {
+  line-height: 140%;
+}
 
 header {
   h1 {
@@ -52,6 +64,7 @@ a {
   &:link {
     color: #3e8ec6;
     text-decoration: none;
+    padding: 0.3em 0;
   }
   &:visited {
     color: darken(#3e8ec6, 10%);
@@ -60,4 +73,16 @@ a {
     color: white;
     background: darken(#3e8ec6, 10%);
   }
+}
+
+/////
+// Nav
+nav ul {
+  list-style: none;
+  margin: 0;
+}
+
+//////
+footer {
+  color: gray;
 }

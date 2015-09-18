@@ -8,23 +8,31 @@
 * {
   box-sizing: border-box;
 }
+img {
+  max-width: 100%;
+}
+
+///////
+// Layout
 
 .page {
-  margin: auto;
+  margin: 1.5em auto;
   width: 100%;
   max-width: 700px;
 }
 
 aside {
   @media screen and (min-width: 500px) {
-    width: 28%;
+    width: 18%;
     float: right;
+    margin-top: 3em;
+    text-align: right;
   }
 }
 
 #main {
   @media screen and (min-width: 500px) {
-    width: 70%;
+    width: 80%;
     float: left;
   }
 }
@@ -45,7 +53,16 @@ header {
     font-size: 100%;
     display: inline;
     font-weight: normal;
+    
+    small {
+      font-size: 100%;
+    }
   }
+  
+  .search {
+    float: right;
+  }
+  
 }
 
 h1 {
@@ -60,7 +77,7 @@ time {
 
 ////////
 
-a {
+.page a {
   &:link {
     color: #3e8ec6;
     text-decoration: none;
@@ -80,6 +97,7 @@ a {
 nav ul {
   list-style: none;
   margin: 0;
+  padding: 0;
 }
 
 //////

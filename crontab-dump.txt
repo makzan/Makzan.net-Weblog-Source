@@ -1,0 +1,2 @@
+5 * * * * source /usr/local/rvm/environments/ruby-2.2.1; cd /home/ubuntu/workspace/makzan.net; /usr/local/rvm/gems/ruby-2.2.1/bin/middleman deploy > /home/ubuntu/workspace/makzan.net/cron.log 2>&1
+

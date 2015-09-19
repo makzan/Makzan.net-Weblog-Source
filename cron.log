@@ -9,6 +9,7 @@
    identical  build/2015/09/19/copy-files-after-middleman-build/index.html
    identical  build/2015/09/18/new-makzan.net-in-beta/index.html
    identical  build/2015/09/17/paper-ideas-to-apple-notes/index.html
+   identical  build/2015/09/19/periodically-deploying-middleman-static-site/index.html
    identical  build/index.html
    identical  build/about/index.html
    identical  build/404.html
@@ -145,8 +146,8 @@
       remove  build/tweets/js
 ## Deploying via git to remote="origin" and branch="gh-pages"
 Already on 'gh-pages'
-[gh-pages 602d996] Automated commit at 2015-09-19 03:05:20 UTC by middleman-deploy 1.0.0
+[gh-pages 7bb2df9] Automated commit at 2015-09-19 13:07:19 UTC by middleman-deploy 1.0.0
 key_read: uudecode AAAAB3NzaC1yc2EAAAABIwAAAQEAq2A7hRGmdnm9tUDbO9IDSwBK6TbQa+PXYPCPy6rbTrTtw7PHkccKrpp0yVhp5HdEIcKr6pLlVDBfOLX9QUsyCOV0wzfjIJNlGEYsdlLJizHhbn2mUjvSAHQqZETYP81eFzLQNnPHt4EVVUh7VfDESU84KezmD5QlWpXLmvU31/yMf+Se8xhHTvKSCZIFImWwoG6mbUoWf9nzpIoaSjB+weqqUUmpaaasXVal72J+UX2B+2RPW3RcT0eOzQgqlJL3RKrTJvdsjE3JEAvGq3lGHSZXy28G3skua2SmVi/w4yCE6gbODqnTWlg7+wC604ydGXA8VJiS5ap43JXiUFFAaQ==|1|yYR7lLL/tmpf05jHaVfeFVSMyqs=|HsLY6sDMyy550RgGN3hd3sRSswg= ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAubiN81eDcafrgMeLzaFPsw2kNvEcqTKl/VqLat/MaB33pZy0y3rJZtnqwR2qOOvbwKZYKiEO1O6VqNEBxKvJJelCq0dTXWT5pbO2gDXC6h6QDXCaHo6pOHGPUy+YBaGQRGuSusMEASYiWunYN0vCAI8QaXnWMXNMdFP3jHAJH0eDsoiGnLPBlBp4TNm6rYI74nMzgz3B9IikW4WVK+dc8KZJZWYjAuORU3jc1c/NPskD2ASinf8v3xnfXeukU0sJ5N6m5E8VLjObPEO+mN2t/FZTMZLiFqPWc/ALSqnMnnhwrNi2rbfg/rd/IpL8Le3pSBne8+seeFVBoGqzHM9yXw==
  failed
 To git@github.com:makzan/makzan.net-weblog.git
-   a22ec05..602d996  gh-pages -> gh-pages
+   8028c3f..7bb2df9  gh-pages -> gh-pages

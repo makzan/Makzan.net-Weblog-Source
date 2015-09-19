@@ -43,6 +43,19 @@ footer {
   clear: both;
 }
 
+blockquote {
+  border-left: 2px solid #ddd;
+  margin: 0;
+  padding-left: 1.5em;
+}
+
+///////
+// basic color
+body {
+  background: #fbfbfb;
+  color: #222;
+}
+
 ////////
 // typography
 
@@ -73,6 +86,27 @@ h1 {
 
 h2 {
   line-height: 110%;
+}
+
+//// Code and Code block
+code {
+  background: rgba(211, 241, 255, 0.5);
+  padding: 0.5em;
+  border-radius: 3px;
+}
+pre code {
+  background: none;
+  padding: 0;
+}
+
+// from: https://css-tricks.com/snippets/css/make-pre-text-wrap/
+pre,
+pre code {
+ white-space: pre-wrap;       /* css-3 */
+ white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+ white-space: -pre-wrap;      /* Opera 4-6 */
+ white-space: -o-pre-wrap;    /* Opera 7 */
+ word-wrap: break-word;       /* Internet Explorer 5.5+ */
 }
 
 //////
@@ -126,3 +160,8 @@ footer {
     display: block;
   }
 }
+
+
+
+////// For Middleman Syntax
+<%= Rouge::Themes::ThankfulEyes.render(:scope => '.highlight') %>

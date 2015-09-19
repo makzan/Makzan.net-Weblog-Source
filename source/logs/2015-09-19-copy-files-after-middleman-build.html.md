@@ -10,6 +10,8 @@ For example, I want to copy the [README.md](/README.md) without middleman compil
 
 So I created a folder named `public`. Then use the following `after_build` command in `config.rb` to copy the files in public into the build folder after every [clean build](https://middlemanapp.com/basics/build_and_deploy/).
 
-    after_build do |builder|
-      FileUtils.cp_r 'public/.', 'build'
-    end
+```ruby
+after_build do |builder|
+  FileUtils.cp_r 'public/.', 'build'
+end
+```

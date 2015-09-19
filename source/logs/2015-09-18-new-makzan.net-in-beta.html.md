@@ -12,6 +12,8 @@ I was wrong.
 
 After years of writing my tutorials and my ideas on makzan.net, I realise that each category of tutorial worth its dedicated website to better present as a course material. As a personal website, storing so many tutorials just make the website too much information and bad for my visitors to browse what’s really matters, my update, if they care. And it’s very difficult to track the changes without keeping a timestamp.
 
-So, after setting up this site [for a decade](http://whois.icann.org/en/lookup?name=makzan.net), I finally turns makzan.net into a blog. A blog that keep my daily writings and thoughts. For all other writings I create, I’ll put them into separate projects.
+So, after setting up this site [for a decade](http://whois.icann.org/en/lookup?name=makzan.net), I finally turn [makzan.net] into a blog. A blog that keeps my daily writings and thoughts. For all other writings I create, I’ll put them into separate projects.
 
-This is a place showing the growth of Makzan, by logging it every day.
+This is a place to show the growth of Makzan, by logging it every day.
+
+[makzan.net]: http://makzan.net

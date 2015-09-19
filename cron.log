@@ -1,29 +1,32 @@
          run  middleman build from "."
-      update  build/stylesheets/website.css
-      create  build/images/hkbu-sharing.jpg
-      create  build/javascripts/site.js
-      update  build/projects/index.html
+   identical  build/stylesheets/website.css
+   identical  build/images/hkbu-sharing.jpg
+   identical  build/javascripts/site.js
+   identical  build/projects/index.html
    identical  build/feed.xml
-      update  build/contact/index.html
-      update  build/2015/09/08/new-life/index.html
-      update  build/2015/09/18/new-makzan.net-in-beta/index.html
-      update  build/2015/09/17/paper-ideas-to-apple-notes/index.html
-      update  build/index.html
-      update  build/about/index.html
-      update  build/404.html
-      update  build/all/index.html
-      update  build/index.html.original
-      update  build/archive/index.html
-      update  build/tags/life/index.html
-      update  build/tags/makzan-net/index.html
-      update  build/tags/productivity/index.html
-      update  build/tags/paper-app/index.html
-      update  build/tags/apple-notes/index.html
-      update  build/2015/index.html
-      update  build/2015/09/index.html
-      update  build/2015/09/18/index.html
-      update  build/2015/09/17/index.html
-      update  build/2015/09/08/index.html
+   identical  build/contact/index.html
+   identical  build/2015/09/08/new-life/index.html
+   identical  build/2015/09/19/copy-files-after-middleman-build/index.html
+   identical  build/2015/09/18/new-makzan.net-in-beta/index.html
+   identical  build/2015/09/17/paper-ideas-to-apple-notes/index.html
+   identical  build/index.html
+   identical  build/about/index.html
+   identical  build/404.html
+   identical  build/all/index.html
+   identical  build/index.html.original
+   identical  build/archive/index.html
+   identical  build/tags/life/index.html
+   identical  build/tags/middleman/index.html
+   identical  build/tags/makzan-net/index.html
+   identical  build/tags/productivity/index.html
+   identical  build/tags/paper-app/index.html
+   identical  build/tags/apple-notes/index.html
+   identical  build/2015/index.html
+   identical  build/2015/09/index.html
+   identical  build/2015/09/19/index.html
+   identical  build/2015/09/18/index.html
+   identical  build/2015/09/17/index.html
+   identical  build/2015/09/08/index.html
       remove  build/tweets/data/js/tweets/2010_08.js
       remove  build/tweets/data/js/tweets/2011_10.js
       remove  build/tweets/data/js/tweets/2013_07.js
@@ -129,8 +132,8 @@
       remove  build/tweets/css/application.min.css
       remove  build/tweets/js/en.js
       remove  build/tweets/js/application.js
+      remove  build/README.md
       remove  build/CNAME
-      remove  build/README
       remove  build/tweets/data/js/tweets
       remove  build/tweets/lib/twt
       remove  build/tweets/lib/jquery
@@ -142,9 +145,8 @@
       remove  build/tweets/js
 ## Deploying via git to remote="origin" and branch="gh-pages"
 Already on 'gh-pages'
-[gh-pages 047593d] Automated commit at 2015-09-18 13:36:18 UTC by middleman-deploy 1.0.0
- 24 files changed, 112 insertions(+), 44 deletions(-)
- create mode 100644 images/hkbu-sharing.jpg
- create mode 100644 javascripts/site.js
+[gh-pages 602d996] Automated commit at 2015-09-19 03:05:20 UTC by middleman-deploy 1.0.0
+key_read: uudecode AAAAB3NzaC1yc2EAAAABIwAAAQEAq2A7hRGmdnm9tUDbO9IDSwBK6TbQa+PXYPCPy6rbTrTtw7PHkccKrpp0yVhp5HdEIcKr6pLlVDBfOLX9QUsyCOV0wzfjIJNlGEYsdlLJizHhbn2mUjvSAHQqZETYP81eFzLQNnPHt4EVVUh7VfDESU84KezmD5QlWpXLmvU31/yMf+Se8xhHTvKSCZIFImWwoG6mbUoWf9nzpIoaSjB+weqqUUmpaaasXVal72J+UX2B+2RPW3RcT0eOzQgqlJL3RKrTJvdsjE3JEAvGq3lGHSZXy28G3skua2SmVi/w4yCE6gbODqnTWlg7+wC604ydGXA8VJiS5ap43JXiUFFAaQ==|1|yYR7lLL/tmpf05jHaVfeFVSMyqs=|HsLY6sDMyy550RgGN3hd3sRSswg= ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAubiN81eDcafrgMeLzaFPsw2kNvEcqTKl/VqLat/MaB33pZy0y3rJZtnqwR2qOOvbwKZYKiEO1O6VqNEBxKvJJelCq0dTXWT5pbO2gDXC6h6QDXCaHo6pOHGPUy+YBaGQRGuSusMEASYiWunYN0vCAI8QaXnWMXNMdFP3jHAJH0eDsoiGnLPBlBp4TNm6rYI74nMzgz3B9IikW4WVK+dc8KZJZWYjAuORU3jc1c/NPskD2ASinf8v3xnfXeukU0sJ5N6m5E8VLjObPEO+mN2t/FZTMZLiFqPWc/ALSqnMnnhwrNi2rbfg/rd/IpL8Le3pSBne8+seeFVBoGqzHM9yXw==
+ failed
 To git@github.com:makzan/makzan.net-weblog.git
-   598936d..047593d  gh-pages -> gh-pages
+   a22ec05..602d996  gh-pages -> gh-pages

@@ -4,6 +4,8 @@
 //   padding: 0;
 // }
 
+$break-point: 600px;
+
 ////
 * {
   box-sizing: border-box;
@@ -22,7 +24,7 @@ img {
 }
 
 aside {
-  @media screen and (min-width: 500px) {
+  @media screen and (min-width: $break-point) {
     width: 18%;
     float: right;
     margin-top: 3em;
@@ -31,7 +33,7 @@ aside {
 }
 
 #main {
-  @media screen and (min-width: 500px) {
+  @media screen and (min-width: $break-point) {
     width: 80%;
     float: left;
   }
@@ -53,20 +55,24 @@ header {
     font-size: 100%;
     display: inline;
     font-weight: normal;
-    
+
     small {
       font-size: 100%;
     }
   }
-  
+
   .search {
     float: right;
   }
-  
+
 }
 
 h1 {
   font-size: 100%;
+}
+
+h2 {
+  line-height: 110%;
 }
 
 //////
@@ -103,4 +109,20 @@ nav ul {
 //////
 footer {
   color: gray;
+}
+
+
+////
+.mobile-only {
+  display: block;
+
+  @media screen and (min-width: $break-point) {
+    display: none;
+  }
+}
+.wide-screen-only {
+  display: none;
+  @media screen and (min-width: $break-point) {
+    display: block;
+  }
 }

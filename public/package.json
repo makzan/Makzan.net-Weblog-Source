@@ -1,0 +1,8 @@
+{
+  "name": "makzan.net-weblog-build",
+  "version": "1.0.0",
+  "description": "Makzan.net Weblog Build",
+  "devDependencies": {
+    "surge": "^0.15.0"
+  }
+}

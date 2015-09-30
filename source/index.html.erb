@@ -1,19 +1,31 @@
-<h1>Today’s thoughts</h1>
+---
+title: Today’s thoughts
+---
 
-<% page_articles.each_with_index do |article, i| %>
-  <% if article.date.to_date === Date.today %>
-    <% @has_today_post = true %>
-    <h2><%= link_to article.title, article %></h2>
-    <p><%= article.body %></p>
+<div class="today-thoughts">
+  
+  <h1>Today’s thoughts</h1>
+  
+  <% page_articles.each_with_index do |article, i| %>
+    <% if article.date.to_date === Date.today %>
+      <% @has_today_post = true %>
+      <article>
+        <h2><%= link_to article.title, article %></h2>
+        <p><%= article.body %></p>
+      </article>
+    <% end %>
   <% end %>
-<% end %>
-
-<% unless @has_today_post %>
-  <p>There’s no post today.</p>
-
-  <h1>Previous thoughts</h1>
-  <% page_articles[0..0].each_with_index do |article, i| %>
-    <h2><%= link_to article.title, article %></h2>
-    <p><%= article.body %></p>
+  
+  <% unless @has_today_post %>
+    <p>There’s no post today.</p>
+  
+    <h1>Previous thoughts</h1>
+    <% page_articles[0..0].each_with_index do |article, i| %>
+      <article>
+        <h2><%= link_to article.title, article %></h2>
+        <p><%= article.body %></p>
+      </article>
+    <% end %>
   <% end %>
-<% end %>
+  
+</div>

@@ -1,6 +1,26 @@
-<h2>All articles</h2>
-<ol>
-  <% blog.articles.each do |article| %>
-    <li><%= link_to article.title, article %> <span><%= article.date.strftime('%b %e') %></span></li>
+---
+title: All articles
+---
+
+<h1>All articles</h1>
+
+<ol class='article-list'>
+  <% blog.articles.group_by {|a| a.date.year }.each do |year, articles| %>
+    
+    <li>
+      <h2><%= year %></h2>
+      <ol class='article-list'>
+        <% articles.each do |article| %>
+          <li><time><%= article.date.strftime('%b %d ') %></time> <%= link_to article.title, article %></li>
+        <% end %>
+      </ol>
+    </li>
+  <% end %>
+</ol>
+
+<h2>Tags</h2>
+<ol class='article-list'>
+  <% blog.tags.each do |tag, articles| %>
+    <li><%= link_to "#{tag} (#{articles.size})", tag_path(tag) %></li>
   <% end %>
 </ol>

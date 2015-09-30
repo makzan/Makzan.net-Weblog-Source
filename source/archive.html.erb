@@ -1,24 +1,23 @@
-<h2>Previous, by makzan.</h2>
+---
+title: Archive
+---
 
-<ol>
-  <% blog.articles[0...10].each do |article| %>
-    <li><%= link_to article.title, article %> <span><%= article.date.strftime('%b %e') %></span></li>
+<h2>Previously, by makzan.</h2>
+
+<ol class='article-list'>
+  <% blog.articles[0...20].each do |article| %>
+    <li><time><%= article.date.strftime('%b %d ') %></time> <%= link_to article.title, article %></li>
   <% end %>
-  <%= link_to 'List all articles', '/all' %>
 </ol>
 
-<h2>Tags</h2>
-<ol>
+<p><%= link_to 'List all articles', '/all/' %></p>
+
+<h2>By Tags</h2>
+<ol class='article-list'>
   <% blog.tags.each do |tag, articles| %>
     <li><%= link_to "#{tag} (#{articles.size})", tag_path(tag) %></li>
   <% end %>
 </ol>
 
-<h2>By Year</h2>
-<ol>
-  <% blog.articles.group_by {|a| a.date.year }.each do |year, articles| %>
-    <li><%= link_to "#{year} (#{articles.size})", blog_year_path(year) %></li>
-  <% end %>
-</ol>
 
 <p>Syndicated Feed: <a href='/feed.xml'>RSS</a></p>

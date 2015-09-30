@@ -5,4 +5,6 @@ source /home/ubuntu/.nvm/nvm.sh
 
 cd /home/ubuntu/workspace/makzan.net
 
-middleman deploy
+middleman build
+
+/home/ubuntu/.nvm/v0.10.35/bin/surge /home/ubuntu/workspace/makzan.net/build

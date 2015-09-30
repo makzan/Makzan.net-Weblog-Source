@@ -21,4 +21,4 @@ Here is a brief timeline of me. You may also read [my story].
 - 2010 My first book got published.
 - Now HTML5+CSS3+JavaScript & Author
 
-[my story]: /thoughts/story-of-makzan/
+[my story]: /2014/09/01/story-of-makzan/

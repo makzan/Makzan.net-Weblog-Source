@@ -4,7 +4,10 @@ date: 2015-10-03
 tags: makzan.net
 ---
 
+
 When I setup this blog with [periodically building and deploying](/2015/09/19/periodically-deploying-middleman-static-site/), I used a local cron. Now I changed to use [WebTask](https://webtask.io) and [CodeShip](https://codeship.com) to automatically generate the static site and deploy on [Surge](https://surge.sh).
+
+![webtask, middleman, surge](/images/logs/webtask-codeship-surge.png)
 
 I changed the hosting service from [Github pages](https://pages.github.com) to [Surge.sh](https://surge.sh). Then I followed the [Integrating with Codeship](https://surge.sh/help/integrating-with-codeship) tutorial to setup the deployment. I made changes to make it build the middleman site as well.
 

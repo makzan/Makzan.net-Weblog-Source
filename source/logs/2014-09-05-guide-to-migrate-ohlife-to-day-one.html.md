@@ -86,7 +86,7 @@ Take a look at the following video on how I write the command by combining typin
 
 After the long progress, which depends on your amount of OhLife entries, the script stops. At this moment your OhLife entries should be in DayOne.
 
-!()[/thoughts/ohlife-6.png]
+![](/images/thoughts/ohlife-6.png)
 
 ## Updated (2014-09-28):
 

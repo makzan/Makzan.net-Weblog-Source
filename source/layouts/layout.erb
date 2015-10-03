@@ -7,22 +7,30 @@
     <title>Makzan<%= ': ' + current_page.data.title unless current_page.data.title.nil? %></title>
     <link rel="stylesheet" href="/stylesheets/website.css">
     <%= feed_tag :atom, "#{blog.options.prefix.to_s}/feed.xml", title: "Atom Feed" %>
-    <script type="text/javascript" src="//use.typekit.net/gku5yms.js"></script>
-    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
     <script src="http://mint-shm.rhcloud.com/?js" type="text/javascript"></script>
   </head>
   <body>
     <div class="page">
-      <header>
-        <h1><a href='/' title='Backt to home'>makzan</a><small>: I teach web design and app dev.</small></h1>
-        <div class="search wide-screen-only"><input type="text" placeholder="Search..." class="st-default-search-input"></div>
-      </header>
+      <%= partial "top_area" %>
+
+      <aside>
+        <header>
+          <h1>Hello, My name is <a href='/contact/' title='Contact Makzan'>makzan</a><small>. I teach web design and app dev.</small></h1>
+        </header>
+        <nav>
+          <ul>
+            <li><%= link_to 'Archive', '/archive/', title: 'Previous essays.' %></li>
+            <li><%= link_to 'Projects', '/projects/', title: 'Projects I build, including books and games.' %></li>
+            <li><%= link_to 'RSS Feed', '/feed.xml', title: 'Syndicated Feed.' %></li>
+          </ul>
+        </nav>
+      </aside>
 
       <div id="main" role="main">
         <%= yield %>
       </div>
 
-      <%= partial "aside" %>
 
       <footer>
         <div class="search mobile-only"><input type="text" placeholder="Search..." class="st-default-search-input"></div>

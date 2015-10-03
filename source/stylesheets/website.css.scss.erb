@@ -14,28 +14,45 @@ img {
   max-width: 100%;
 }
 
+p:first-child,
+h1:first-child,
+h2:first-child,
+h3:first-child,
+h4:first-child,
+{
+  margin-top: 0;
+}
+
 ///////
 // Layout
+
+.top-area {
+  min-height: 1em;
+
+  @media screen and (min-width: $break-point) {
+    min-height: 80px;
+    padding: 20px;
+  }
+}
 
 .page {
   margin: 1.5em auto;
   width: 100%;
-  max-width: 700px;
+  max-width: 860px;
 }
 
 aside {
+  margin-bottom: 2em;
   @media screen and (min-width: $break-point) {
-    width: 18%;
-    float: right;
-    margin-top: 3em;
-    text-align: right;
+    width: 38%;
+    float: left;
   }
 }
 
 #main {
   @media screen and (min-width: $break-point) {
-    width: 80%;
-    float: left;
+    width: 60%;
+    float: right;
   }
 }
 
@@ -50,6 +67,8 @@ blockquote {
   padding-left: 1.5em;
 }
 
+
+
 ///////
 // basic color
 body {
@@ -61,33 +80,36 @@ body {
 // typography
 
 body {
-  line-height: 140%;
+  line-height: 1.45em;
+  font-family: Georgia, serif;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
 }
 
 header {
   h1 {
     font-size: 100%;
     display: inline;
-    font-weight: normal;
+    font-weight: bold;
 
     small {
       font-size: 100%;
+      font-weight: normal;
     }
   }
 
-  .search {
-    float: right;
-  }
-
 }
 
-h1 {
+.search.wide-screen-only {
+  float: right;
+}
+
+
+h1, h2, h3, h4 {
   font-size: 100%;
+  font-family: "Gill Sans MT", sans-serif;
 }
 
-h2 {
-  line-height: 110%;
-}
 
 //// Code and Code block
 code {
@@ -125,20 +147,25 @@ time {
 
 ////////
 
-.page a {
-  &:link {
-    color: #3e8ec6;
-    text-decoration: none;
-    padding: 0.3em 0;
-  }
+a {
+  &:link,
   &:visited {
-    color: darken(#3e8ec6, 10%);
+    color: #222;
+    border-bottom: 2px solid rgba(62, 142, 198, .6);
+    text-decoration: none;
   }
+
+  footer &:link,
+  footer &:visited {
+    color: gray;
+  }
+
+
   &:hover {
-    color: white;
-    background: darken(#3e8ec6, 10%);
+    background: rgba(255, 255, 0, 1);
   }
 }
+
 
 /////
 // Nav
@@ -146,11 +173,32 @@ nav ul {
   list-style: none;
   margin: 0;
   padding: 0;
+
+  li {
+    display: inline;
+
+    @media screen and (min-width: $break-point) {
+      display: block;
+    }
+  }
+
 }
 
 //////
 footer {
   color: gray;
+  text-align: center;
+
+  @media screen and (min-width: $break-point) {
+    text-align: inherit;
+  }
+}
+
+footer nav {
+  margin-bottom: 1em;
+  @media screen and (min-width: $break-point) {
+    float: right;
+  }
 }
 
 

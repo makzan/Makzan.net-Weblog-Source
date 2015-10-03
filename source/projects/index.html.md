@@ -2,7 +2,7 @@
 title: Projects
 ---
 
-# Projects
+# Books I wrote
 
 ## [Flexbox.website]
 
@@ -20,6 +20,24 @@ Build interactive games with HTML, DOM, and the CreateJS game library. Published
 
 I have made a couple of HTML5 games for my game develapment tutorials. You may play them here.
 
+# Courses I teached
+
+I have archived the old makzan.net into [archive.makzan.net]. I kept the 4 courses URL unchanged. They are:
+
+- [Mobile web app development][11]
+- [Ruby on Rails 101][12]
+- [Introducing Web Design][13]
+- [Mobile Web Design][14]
+
+
+Refering to my [beta announcement][15], these courses will have a dedicated site. Meanwhile, I just host the as-is version here to keep the URL works.
+
+[archive.makzan.net]: http://archive.makzan.net
+[11]: /mobile-web-app-dev-with-phonegap/
+[12]: /ruby-on-rails-101/
+[13]: /introducing-web-design/
+[14]: /mobile-web-design/
+[15]: /2015/09/18/new-makzan.net-in-beta/
 
 [Flexbox.website]: http://flexbox.website
 

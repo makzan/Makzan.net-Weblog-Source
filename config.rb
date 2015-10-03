@@ -24,8 +24,8 @@ activate :blog do |blog|
   blog.calendar_template = "calendar.html"
 
   # Enable pagination
-  # blog.paginate = true
-  # blog.per_page = 10
+  # blog.paginate = false
+  # blog.per_page = 10000
   # blog.page_link = "page/{num}"
 end
 
@@ -110,7 +110,7 @@ end
 
 after_build do |builder|
   FileUtils.cp_r 'public/.', 'build'
-  
+
   # check diff.
   # result = %x(diff -r build last_build)
   # if result.size > 0
@@ -125,7 +125,7 @@ end
 
 activate :deploy do |deploy|
   deploy.build_before = true
-  
+
   deploy.method = :git
   # Optional Settings
   # deploy.remote   = "custom-remote" # remote name or git url, default: origin

@@ -16,9 +16,6 @@ img {
 
 p:first-child,
 h1:first-child,
-h2:first-child,
-h3:first-child,
-h4:first-child,
 {
   margin-top: 0;
 }
@@ -81,15 +78,21 @@ body {
 
 body {
   line-height: 1.45em;
-  font-family: Georgia, serif;
+  font-family: "Gill Sans MT", sans-serif;
   font-weight: normal;
   -webkit-font-smoothing: antialiased;
 }
 
+article {
+  font-family: Georgia, serif;
+}
+
+h1, h2, h3, h4 {
+  font-size: 100%;
+}
+
 header {
   h1 {
-    font-size: 100%;
-    display: inline;
     font-weight: bold;
 
     small {
@@ -104,11 +107,6 @@ header {
   float: right;
 }
 
-
-h1, h2, h3, h4 {
-  font-size: 100%;
-  font-family: "Gill Sans MT", sans-serif;
-}
 
 
 //// Code and Code block
@@ -136,6 +134,11 @@ pre code {
 
 time {
   font-style: italic;
+}
+
+///// list
+li {
+  margin-bottom: .45em;
 }
 
 .article-list li time {

@@ -4,7 +4,7 @@ date: 2015-10-05
 tags: life
 ---
 
-Yesterday I posted my minimal iPhone homescreen. Here is my desktop:
+Yesterday I posted my [minimal iPhone homescreen](/2015/10/04/minimal-homescreen/). Here is my desktop:
 
 One desktop folder to store all my temporary files, which I’m too lazy to file them.
 

@@ -48,7 +48,7 @@ For periodically building and deployment. I need to trigger the Codeship buildin
 
 Here is the JavaScript file that I install on the WebTask service.
 
-`codeship-build-Makzan-net.js` file:
+`codeship-build-makzan-net.js` file:
 
 ```javascript
 // Assume secret for CODESHIP_API_KEY.

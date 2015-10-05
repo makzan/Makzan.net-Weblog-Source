@@ -1,2 +1,0 @@
-5 * * * * /home/ubuntu/workspace/makzan.net/build_and_deploy.sh > /home/ubuntu/workspace/makzan.net/cron.log 2>&1
-

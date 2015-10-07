@@ -8,6 +8,7 @@ GEM
       thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
     addressable (2.3.8)
+    asciidoctor (1.5.2)
     builder (3.2.2)
     capybara (2.4.4)
       mime-types (>= 1.16)
@@ -136,6 +137,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  asciidoctor (~> 1.5.2)
   builder (~> 3.0)
   middleman (~> 3.4.0)
   middleman-blog (~> 3.5.3)

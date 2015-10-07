@@ -11,3 +11,6 @@ gem "redcarpet"
 
 # For feed.xml.builder
 gem "builder", "~> 3.0"
+
+# Activate support for AsciiDoc
+gem 'asciidoctor', '~> 1.5.2'

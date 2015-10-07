@@ -12,11 +12,10 @@
   </head>
   <body>
     <div class="page">
-      <%= partial "top_area" %>
 
       <aside>
         <header>
-          <h1>Hello, My name is <a href='/' title='Back to home.'>makzan</a><small>. I teach web design and app dev.</small></h1>
+          <h1>Hello, My name is <a href='/' title='Back to home.'>makzan</a><small>. I teach web design and app development.</small></h1>
         </header>
         <nav>
           <ul>
@@ -26,6 +25,8 @@
             <li><%= link_to 'RSS Feed', '/feed.xml', title: 'Syndicated Feed.' %></li>
           </ul>
         </nav>
+
+        <%= partial "top_area" %>
       </aside>
 
       <div id="main" role="main">

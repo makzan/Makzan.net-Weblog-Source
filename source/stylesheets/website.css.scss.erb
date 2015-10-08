@@ -160,8 +160,11 @@ a {
   &:link,
   &:visited {
     color: #222;
-    border-bottom: 2px solid rgba(62, 142, 198, .6);
+    border-bottom: 1px solid rgba(62, 142, 198, 0.25);
+    box-shadow: inset 0 -5px rgba(62, 142, 198, 0.25);
     text-decoration: none;
+
+    transition: all 0.3s ease-out;
   }
 
   footer &:link,

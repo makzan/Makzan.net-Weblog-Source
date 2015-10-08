@@ -1,0 +1,10 @@
+---
+title: Quote—On the side of the majority
+date: 2015-10-09
+tags: life, quote
+---
+
+[quote, Mark Twain]
+____
+Whenever you find yourself on the side of the majority, it is time to pause and reflect.
+____

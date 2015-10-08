@@ -3,9 +3,9 @@ title: Today’s thoughts
 ---
 
 <div class="today-thoughts">
-  
+
   <h1>Today’s thoughts:</h1>
-  
+
   <% page_articles.each_with_index do |article, i| %>
     <% if article.date.to_date === Date.today %>
       <% @has_today_post = true %>
@@ -15,10 +15,10 @@ title: Today’s thoughts
       </article>
     <% end %>
   <% end %>
-  
+
   <% unless @has_today_post %>
-    <p>There’s no post today.</p>
-  
+    <p>There’s no post today, yet.</p>
+
     <h1>Previous thoughts</h1>
     <% page_articles[0..0].each_with_index do |article, i| %>
       <article>
@@ -27,5 +27,5 @@ title: Today’s thoughts
       </article>
     <% end %>
   <% end %>
-  
+
 </div>

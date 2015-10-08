@@ -9,7 +9,7 @@ tags: simplicity
 
 Link: {1}[The One Thing Jony Ive Remembers Most About Steve Jobs]
 
-[quote, Jony Ive, {1}]
+[quote, Jonathan Ive, {1}]
 ____
 Quite honestly, what’s remained, I never would have predicted four years ago. What’s remained is almost unremarkable, but what’s remained is his very simple focus on trying to make something beautiful and great. And it really was simple. There wasn’t a grand plan of winning, or a very complicated agenda. **That simplicity seemed almost childlike in its purity. And it’s true.**
 

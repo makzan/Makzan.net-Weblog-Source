@@ -4,17 +4,25 @@ date: 2015-10-07
 tags: writing, asciidoc
 ---
 
-I’m writing my next technical book and course material with AsciiDoc. In Mac, there is plenty of options to write the AsciiDoc with syntax highlight. In iOS, I’ve searched many text editor until I find http://www.textasticapp.com[Textastic] app to supports the syntax highlight with plugin.
+= Setup Textastic app to write AsciiDoc on iOS
 
-I followed this http://feedback.textasticapp.com/topic/454769-swift-syntax-highlighting/[Textastic forum post] to install syntax plugin on the iPhone. Here is my specific steps for installing the AsciiDoc bundle.
+:1: http://www.textasticapp.com
+:2: http://feedback.textasticapp.com/topic/454769-swift-syntax-highlighting/
+:3: https://github.com/zuckschwerdt/asciidoc.tmbundle
+:4: https://github.com/zuckschwerdt/asciidoc.tmbundle/archive/master.zip
+
+I’m writing my next technical book and course material with AsciiDoc. In Mac, there is plenty of options to write the AsciiDoc with syntax highlight. In iOS, I’ve searched many text editor until I find {1}[Textastic] app to supports the syntax highlight with plugin.
+
+I followed this {2}[Textastic forum post] to install syntax plugin on the iPhone. Here is my specific steps for installing the AsciiDoc bundle.
 
 1. In the Textastic app, create a folder named `#Textastic` in the root of the local files. You should see a special icon for the folder if it succeeds. Our target is to put the bundle of syntax highlight into this folder. The app will automatically treat it as a plugin.
 +
 image::logs/textastic-folder.png[]
-2. I use the https://github.com/zuckschwerdt/asciidoc.tmbundle[AsciiDoc TextMate bundle]. You can find the zip location at the `Download ZIP` button on the Github page. Copy the URL to the ZIP file. The URL is at the following.
+2. I use the {3}[AsciiDoc TextMate bundle]. You can find the zip location at the `Download ZIP` button on the Github page. Copy the {4}[URL to the ZIP file]. The URL is at the following.
 +
+[subs="attributes"]
 ----
-https://github.com/zuckschwerdt/asciidoc.tmbundle/archive/master.zip
+{4}
 ----
 3. Open the URL in iOS Safari, it’s a zip file so Safari won’t open it directly. Instead, it asks you for the application to open it. `Open In` > `Copy to Textastic`.
 4. The system switches to Textastic and it asks if you want to unarchive the zip file. Choose `Yes`.

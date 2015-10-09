@@ -1,0 +1,17 @@
+---
+title: Quote—On the side of the majority
+date: 2015-10-10
+tags: asciidoc
+---
+
+:1: /2015/10/07/setup-textastic-app-to-write-asciidoc-on-ios/
+
+I created a simple comparasion between AsciiDoc and markdown. It uses my {1}[previous article].
+
+You can find both editions in the following Gist:
+
+https://gist.github.com/makzan/a266ce21148d7826bfcd
+
+And their diff:
+
+https://gist.github.com/makzan/a266ce21148d7826bfcd/revisions

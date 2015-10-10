@@ -6,7 +6,7 @@ tags: asciidoc
 
 :1: /2015/10/07/setup-textastic-app-to-write-asciidoc-on-ios/
 
-I created a simple comparasion between AsciiDoc and markdown. It uses my {1}[previous article].
+I created a simple comparasion between AsciiDoc and markdown. It uses my link:{1}[previous article].
 
 You can find both editions in the following Gist:
 

@@ -1,5 +1,5 @@
 ---
-title: Quote—On the side of the majority
+title: A simple comparasion between AsciiDoc and Markdown
 date: 2015-10-10
 tags: asciidoc
 ---

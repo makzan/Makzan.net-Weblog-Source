@@ -1,0 +1,9 @@
+---
+title: ECMAScript 6 Cheatsheet
+date: 2015-10-13
+tags: web-design, javascript, cheatsheet
+---
+
+Link: http://help.wtf/es6[ECMAScript 6 Cheatsheet]
+
+Useful cheatsheet. Bookmark here.

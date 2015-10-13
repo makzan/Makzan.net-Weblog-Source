@@ -1,7 +1,7 @@
 ---
 title: Start using flexbox today
 date: 2015-04-17
-tags: web-design
+tags: web-design, css, flexbox
 ---
 
 

@@ -1,7 +1,7 @@
 ---
 title: Dealing with long words in CSS
 date: 2015-09-25
-tags: web-design, web-clip
+tags: web-design, web-clip, css
 ---
 
 Link: [Dealing with long words in CSS](https://justmarkup.com/log/2015/07/31/dealing-with-long-words-in-css/)

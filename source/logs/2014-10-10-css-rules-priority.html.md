@@ -1,7 +1,7 @@
 ---
 title: CSS rules priority
 date: 2014-10-10
-tags: web-design
+tags: web-design, css
 ---
 
 Types of selector has the following priority order.

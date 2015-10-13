@@ -1,7 +1,7 @@
 ---
 title: CSS Pattern with Repeating Linear Gradient
 date: 2015-10-01
-tags: web-clip, web-design
+tags: web-clip, web-design, css
 ---
 
 Link: [Why Do We Have `repeating-linear-gradient` Anyway?](https://css-tricks.com/why-do-we-have-repeating-linear-gradient-anyway/)

@@ -1,0 +1,9 @@
+---
+title: Corpus—A collection of CSS
+date: 2015-10-13
+tags: web-clip, web-design, css
+---
+
+Link: http://corpuscss.com[Corpus—A collection of CSS]
+
+Useful CSS resource. Bookmark here.

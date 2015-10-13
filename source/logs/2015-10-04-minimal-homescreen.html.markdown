@@ -1,7 +1,7 @@
 ---
 title: Minimal Homescreen
 date: 2015-10-04
-tags: life
+tags: life, productivity
 ---
 
 I posted [my home screen](/2014/09/03/do-you-really-need-so-many-apps/) last year. Here is my latest one.

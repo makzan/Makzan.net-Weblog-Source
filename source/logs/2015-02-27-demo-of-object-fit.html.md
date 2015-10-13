@@ -1,7 +1,7 @@
 ---
 title: Demo of Object Fit
 date: 2015-02-27
-tags: web-design
+tags: web-design, css
 ---
 
 

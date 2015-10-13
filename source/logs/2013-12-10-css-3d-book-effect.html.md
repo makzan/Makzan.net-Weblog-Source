@@ -1,7 +1,7 @@
 ---
 title: The CSS 3D book effect
 date: 2013-12-10
-tags: web-design
+tags: web-design, css
 ---
 
 Recently Amazon updates the book cover into a 3D look book in [some their paperback](http://www.amazon.com/exec/obidos/ASIN/0061732974/wwwaustinkleo-20/ref=nosim/) web page.

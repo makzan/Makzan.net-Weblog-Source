@@ -1,7 +1,7 @@
 ---
 title: Gray highlight and active state in mobile Safari
 date: 2015-03-18
-tags: web-design, web-clip
+tags: web-design, web-clip, css
 ---
 
 

@@ -1,7 +1,7 @@
 ---
 title: Twitter’s fav icon with CSS step function
 date: 2015-02-15
-tags: web-design
+tags: web-design, css
 ---
 
 Twitter’s new fav icon animation uses static image and the sprite sheet technique. This is the technique we use a lot in game design.

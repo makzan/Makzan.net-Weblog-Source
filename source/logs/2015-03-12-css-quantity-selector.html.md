@@ -1,7 +1,7 @@
 ---
 title: CSS Quantity Selector
 date: 2015-03-12
-tags: web-design
+tags: web-design, css
 ---
 
 The [Quantity Queries for CSS][53541] essay from A List Apart shows how we can use current CSS selectors to perform quantity queries. By using the techniques in the essay, we can apply styles when the element count matches specific number, or when the element count is greater or smaller than the specific number.

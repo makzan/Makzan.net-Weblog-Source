@@ -1,7 +1,7 @@
 ---
 title: CSS is 20 years old
 date: 2014-10-10
-tags: web-design
+tags: web-design, css
 ---
 
 

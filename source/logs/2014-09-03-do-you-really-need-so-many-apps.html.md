@@ -1,7 +1,7 @@
 ---
 title: Do you really need so many apps?
 date: 2014-09-03
-tags: life
+tags: life, productivity
 ---
 
 I have only 1 page of apps in my iPhone. All my daily apps are accessible via the only home screen.

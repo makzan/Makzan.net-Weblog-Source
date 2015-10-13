@@ -1,7 +1,7 @@
 ---
 title: Foundation 6 and CSS Preprocessor
 date: 2015-09-28
-tags: web-design, web-clip
+tags: web-design, web-clip, css
 ---
 
 Link: [Foundation 6: Leaner, Meaner and Cleaner Sass](http://zurb.com/article/1407/foundation-6-leaner-meaner-and-cleaner-sa)

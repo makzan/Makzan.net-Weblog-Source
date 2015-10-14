@@ -1,0 +1,16 @@
+---
+title: Writing book in code editor
+date: 2015-10-15
+tags: asciidoc, writing
+---
+
+I recently changed my writing tool from those distraction-free text editorsfootnote:[I used to use iA writer, Ulysses.] to code editor.footnote:[I use Textastic on iOS, Atom on Mac.]
+
+It’s mainly because I focus on writing technical books with code examples and tutorials.
+
+Writing code tutorials don’t need a distraction writing environment. Instead, I need to code my code examples, make it works and refractor into a elegant minimal code base. Then I draw different graphs to try to explain the code. After all of this preparation, I can finally put the source code and graphics together into the text editor. Until then, I can write the text that connects the steps and make the tutorial into a piece of writing.
+
+I use AsciiDoc to write the tutorials. It allows me to glue the code snippets, graphics and  admonition block together and output as HTML. A code editor with AsciiDoc syntax obviously fits better than an editor that target swriting plain text.
+
+That’s why I switched to use code editor to write.
+

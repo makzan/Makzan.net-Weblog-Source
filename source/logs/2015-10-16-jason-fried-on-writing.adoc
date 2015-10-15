@@ -1,0 +1,19 @@
+---
+title: Jason Fried on Writing
+date: 2015-10-16
+tags: writing
+---
+
+Two quotes from Jason Fried on writing, from issue 12 of http://www.offscreenmag.com/issue12/[Offscreen Magazine].
+
+[quote,Jason Fried]
+____
+I guess I’ve grown to love it [writing] because it forces me to think and consolidate my thoughts. It forces me to be clear, to be able to explain what’s in my head to someone else.
+____
+
+The “bait for knowledge”:
+
+[quote,Jason Fried]
+____
+I know just about nothing, so any chance I get to learn something new, or to see something in the different light, is a potential moments of growth. Putting your own ideas out in the world returns other people’s ideas right back to you. Writing is like a boomerang in that sense. It’s bait for knowledge.
+____

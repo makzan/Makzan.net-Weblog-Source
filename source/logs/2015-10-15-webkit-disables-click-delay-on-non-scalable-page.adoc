@@ -1,0 +1,15 @@
+---
+title: Webkit disables click delay on non-scalanble web page
+date: 2015-10-15
+tags: web-design, web-clip
+---
+
+Link: https://trac.webkit.org/changeset/191072
+[quote]
+____
+When a viewport is unscalable (specified through the meta viewport tag) we do not add a delay to our single tap gesture recognizer.
+____
+
+When we set the viewport to unscalable, which means we want that web page acts like an app. So we shoudn’t make our web page unscalable just for the sake to disable the click delay.
+
+By the way, I mentioned about http://www.makzan.net/mobile-web-app-dev-with-phonegap/touchstart-and-touchend-event/[disabling the click delay by using touch event] in my mobile web app course.

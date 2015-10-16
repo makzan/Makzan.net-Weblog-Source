@@ -1,0 +1,11 @@
+---
+title: Blend—Generate simple and beautiful CSS3 gradients
+date: 2015-10-17
+tags: web-design, css, web-clip
+---
+
+image::logs/blend.jpg[]
+
+Link: http://colinkeany.com/blend/
+
+Useful tool to create CSS3 gradients, by https://twitter.com/colinkeany[@colinkeany]. It works in mobile too.

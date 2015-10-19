@@ -1,0 +1,23 @@
+---
+title: AgileBits never tells you to make the keychain in Dropbox public accessible
+date: 2015-10-19
+tags: web-clip
+---
+
+Link: http://myers.io/2015/10/22/1password-leaks-your-data/[1Password Leaks Your Data]
+
+> Being a curious kind of guy I opened the file to see what was in there. The answer is the name and address of every item that I have in 1Password. Every single one. In plain text.
+
+You won't have access to that HTML file, and the related JS code if you haven't logged into your Dropbox account. AgileBits never tells you to make the .agilekeychain public accessible.
+
+.The 1Password Anywhere we are talking about
+image::logs/1password-anywhere.adoc[]
+
+I just tried, you get a 403 access denied.
+
+image::logs/dropbox-403.adoc[]
+
+
+p.s. What’s worse? I also find the essay uses a referral link to Dropbox. I really doubt the intension of the post.
+
+image::logs/dropbox-referral-link.adoc[]

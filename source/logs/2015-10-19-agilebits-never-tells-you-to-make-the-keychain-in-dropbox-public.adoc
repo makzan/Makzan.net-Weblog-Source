@@ -4,7 +4,7 @@ date: 2015-10-19
 tags: web-clip
 ---
 
-Link: http://myers.io/2015/10/22/1password-leaks-your-data/[1Password Leaks Your Data]
+Re: http://myers.io/2015/10/22/1password-leaks-your-data/[1Password Leaks Your Data]
 
 > Being a curious kind of guy I opened the file to see what was in there. The answer is the name and address of every item that I have in 1Password. Every single one. In plain text.
 

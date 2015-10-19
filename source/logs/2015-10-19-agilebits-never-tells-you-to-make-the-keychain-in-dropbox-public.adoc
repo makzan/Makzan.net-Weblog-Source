@@ -1,7 +1,7 @@
 ---
 title: AgileBits never tells you to make the keychain in Dropbox public accessible
 date: 2015-10-19
-tags: web-clip
+tags: web-clip, reply
 ---
 
 Re: http://myers.io/2015/10/22/1password-leaks-your-data/[1Password Leaks Your Data]

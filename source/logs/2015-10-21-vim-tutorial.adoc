@@ -1,0 +1,11 @@
+---
+title: A easy-to-understand vim tutorial
+date: 2015-10-21
+tags: web-clip
+---
+
+Link: https://danielmiessler.com/study/vim/[A vim Tutorial and Primer]
+
+> Vim as Language. Arguably the most brilliant thing about vim is that as you use it you begin to think in it. vim is set up to function like a language, complete with nouns, verbs, and adverbs.
+
+I learnt vim, but this would definitely be helpful if I have to learn it again today. Recommend to every one that’s new to vim.

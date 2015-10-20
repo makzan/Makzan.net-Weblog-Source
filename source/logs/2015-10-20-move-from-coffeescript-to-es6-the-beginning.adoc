@@ -1,0 +1,14 @@
+---
+title: Move from CoffeeScript to ES6, the beginning
+date: 2015-10-20
+tags: javascript
+---
+
+:1: http://practicalcreatejs.com/
+:2: /2015/10/14/practical-createjs/
+:3: http://codepen.io/collection/Diedo/
+:4: http://shop.oreilly.com/product/0636920033769.do
+
+I’m {1}[working on a book] that shows how we can integrate canvas into our daily web design and application. I link{2}[converted that book into AsciiDoc] recently. Now I’m making another chanegs to the code example. I start converting the source code from CoffeeScript into ES6. You can find the progress of converting my example code in {3}[my CodePen collection].
+
+By the way, A good book to learn ES6: {4}[You Don't Know JS: ES6 & Beyond]

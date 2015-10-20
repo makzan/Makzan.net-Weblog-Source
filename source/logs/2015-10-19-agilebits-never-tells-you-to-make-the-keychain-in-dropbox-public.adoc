@@ -21,3 +21,7 @@ image::/images/logs/dropbox-403.png[]
 p.s. I also find the essay uses a referral link to Dropbox. I really doubt the intension of the post.
 
 image::/images/logs/dropbox-referral-link.png[]
+
+* * *
+
+https://www.designernews.co/stories/57736-re-1password-leaks-your-data#Comment181638[Comments in DesignerNews]

@@ -1,0 +1,14 @@
+---
+title: One third of FWA Site of the Day winners uses CreateJS
+date: 2015-11-05
+tags: createjs
+---
+
+According to the http://createjs.com/html5ads/[HTML5Ads documents] by http://createjs.com[CreateJS].
+
+[quote]
+____
+CreateJS is robust and mature. The suite was created and is maintained by a highly experienced team of interactive developers and designers, who have been building rich content for over 15 years using Flash and HTML5. It is over 5 years old, has grown through 8 major releases, and has been sponsored by Adobe, Microsoft, Mozilla, and AOL. CreateJS is used by tens of thousands of developers, with over one third of FWA Site of the Day winners using it, and content built with CreateJS is viewed by hundreds of millions of users every day.
+____
+
+Over one third of FWA Site of the Day winners uses CreateJS. Impressive!

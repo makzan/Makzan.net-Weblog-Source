@@ -1,0 +1,18 @@
+---
+title: Basecamp 3
+date: 2015-11-04
+tags: web-clip, basecamp
+---
+
+Link: https://signalvnoise.com/posts/3968-launch-basecamp-3[Launch: Basecamp 3]
+
+image::/images/logs/basecamp3.png[]
+
+I have been a fans of both the Basecamp product and the company behind it, formly http://37signals.com[37signals] and now https://basecamp.com[Basecamp].
+
+I clipped an interview to Jason Fried by http://www.offscreenmag.com/issue12/[OffScreen Magazine]:
+
+> We thought long about what it’d be like to concentrate on one product forever. We realised, through, that it’s not really _one_ product forever. It may be one product _name_ forever, but the actual product will evolve in all sorts of ways over the years.
+
+image::/images/logs/basecamp-one-product.png[]
+

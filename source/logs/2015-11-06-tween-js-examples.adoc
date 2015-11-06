@@ -1,0 +1,37 @@
+---
+title: Tween.js examples
+date: 2015-11-06
+tags: createjs, tweenjs
+---
+
+I’m recently trying to use the http://tweenjs.com[TweenJS] library with DOM elements.
+
+Here is my first attempt.
+
+++++
+<p data-height="268" data-theme-id="0" data-slug-hash="yYqdxP" data-default-tab="result" data-user="makzan" class='codepen'>See the Pen <a href='http://codepen.io/makzan/pen/yYqdxP/'>TweenJS Testing</a> by Thomas Seng Hin Mak (<a href='http://codepen.io/makzan'>@makzan</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+++++
+
+Here is the core part of the source code. I didn’t use the CSS plugin from TweenJS. Instead, I interpolate the values in the `data` object and use a dedicated view rendering function to render the changes. I find it cleaner and fit my philosophy of data-view-separation.
+
+[source, es6]
+----
+// data tweening
+createjs.Tween.get({opacity:0,x:0}, {loop:true, onChange:render})
+  .to({opacity: 0.9, x:200}, 300, createjs.Ease.bounceOut)
+  .to({opacity: 0.3}, 300, createjs.Ease.easeOut)
+  .wait(200)
+  .to({opacity: 0.9}, 300, createjs.Ease.easeOut)
+  .to({opacity: 0, x:0}, 300, createjs.Ease.easeOut)
+  .wait(1000)
+
+// view rendering
+var avatar = document.getElementById('avatar1');
+
+function render(event){
+  var data = event.currentTarget.target;
+  avatar.style.opacity = data.opacity+"";
+  avatar.style.transform = `translateX(${data.x}px)`;
+}
+----

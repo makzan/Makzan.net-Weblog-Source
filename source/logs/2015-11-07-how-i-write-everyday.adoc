@@ -9,4 +9,4 @@ tags: writing
 2. I share every writings to http://dayoneapp.com[Day One], which syncs to my Mac.
 3. I collect the writings into http://www.literatureandlatte.com/scrivener.php[Scrivener].
 4. I write and edit in Scrivener when I am using Mac.
-5. I export them as http://asciidoctor.org[AsciiDoctor format and deploy to static hosting service, such as https://surge.sh[Surge.sh]
+5. I export them as http://asciidoctor.org[AsciiDoctor] format and deploy to static hosting service, such as https://surge.sh[Surge.sh]

@@ -2,7 +2,9 @@
 title: Projects
 ---
 
-# Books I wrote
+I share know-how via writing and teaching.
+
+# Books
 
 ## [Flexbox.website]
 
@@ -20,7 +22,13 @@ Build interactive games with HTML, DOM, and the CreateJS game library. Published
 
 I have made a couple of HTML5 games for my game develapment tutorials. You may play them here.
 
-# Courses I teached
+# Other writings
+
+## [Weekly Web Design Readings][21] (Paused)
+
+17 weekly issues with my thoughts on web design.
+
+# Courses
 
 I have archived the old makzan.net into [archive.makzan.net]. I kept the 4 courses URL unchanged. They are:
 
@@ -38,6 +46,7 @@ Refering to my [beta announcement][15], these courses will have a dedicated site
 [13]: /introducing-web-design/
 [14]: /mobile-web-design/
 [15]: /2015/09/18/new-makzan.net-in-beta/
+[21]: http://tinyletter.com/makzan/archive
 
 [Flexbox.website]: http://flexbox.website
 

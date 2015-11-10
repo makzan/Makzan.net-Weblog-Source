@@ -1,0 +1,14 @@
+---
+title: ReactJS Examples
+date: 2015-11-11
+tags: react
+---
+
+I’m writing some ReactJS examples to demonstrate how we use React as the view rendering library. It also shows how we do data-view separation.
+
+You can find the examples in the following CodePen collection:
+
+http://codepen.io/collection/XwaeGM/
+
+.Screenshot of the weather example
+image::/images/logs/react-weather.jpg[Screenshot of the weather example]

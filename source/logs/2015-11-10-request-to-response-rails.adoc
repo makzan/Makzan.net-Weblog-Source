@@ -1,0 +1,11 @@
+---
+title: Rails from request to response
+date: 2015-11-10
+tags: rails
+---
+
+I need to draw a chart to explain the flow from a client’s browser sending a request to Rails server. Then Router dispatches the request to Controller. Controller grab data it needs from Model. Finally Rails uses the ERB engine to put together the HTML and data to create an HTML file, which sends back to client’s browser and displays.
+
+Here is the chart:
+
+image::/images/logs/rails-request-to-response.png[]

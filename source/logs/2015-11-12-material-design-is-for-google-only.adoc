@@ -1,0 +1,14 @@
+---
+title: Material Design is for Google only
+date: 2015-11-12
+tags: quote, web-design
+---
+
+[quote, Stephen Hay, Net Magazine Issue 274]
+____
+The way people talk about Material Design makes it feel as through it’s a new discovery in design. There are interesting principles in there, but I don’t see why another company would want to adopt Google’s design guidelines. Outside of Google I don’t think it’s a huge thing, and I don’t really think about it very much to be honest.
+____
+
+I agree no more.
+
+image::/images/logs/material-design.jpg[]

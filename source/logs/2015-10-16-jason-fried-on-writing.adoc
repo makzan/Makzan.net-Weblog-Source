@@ -1,7 +1,7 @@
 ---
 title: Jason Fried on Writing
 date: 2015-10-16
-tags: writing
+tags: writing, quote
 ---
 
 Two quotes from Jason Fried on writing, from issue 12 of http://www.offscreenmag.com/issue12/[Offscreen Magazine].
